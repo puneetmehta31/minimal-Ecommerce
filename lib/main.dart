@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:fooddeliveryapp/auth_login/login_page.dart';
 import 'package:fooddeliveryapp/models/shop.dart';
 import 'package:fooddeliveryapp/pages/cart_page.dart';
 import 'package:fooddeliveryapp/pages/intro_page.dart';
@@ -33,6 +34,7 @@ class _MyAppState extends State<MyApp> {
         home: Splash(),
         theme: lightMode,
         routes: {
+          '/login_page': (context) =>  LoginPage(),
           '/intro_page': (context) => const Intropage(),
           '/shop_page': (context) => const ShopPage(),
           '/cart_page': (context) => const CartPage(),

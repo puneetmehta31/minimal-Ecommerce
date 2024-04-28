@@ -44,7 +44,7 @@ class Intropage extends StatelessWidget {
         
             //button
         // ignore: prefer_const_constructors
-        MyButton(onTap: () => Navigator.pushNamed(context, '/shop_page'), 
+        MyButton(onTap: () => Navigator.pushNamed(context, '/login_page'), 
         child: Icon(Icons.arrow_forward))
         
             
